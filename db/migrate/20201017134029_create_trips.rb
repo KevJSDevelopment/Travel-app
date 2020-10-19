@@ -5,6 +5,7 @@ class CreateTrips < ActiveRecord::Migration[6.0]
       t.float :price
       t.integer :user_id
       t.integer :location_id
+      t.integer :room_id
 
       t.timestamps
     end

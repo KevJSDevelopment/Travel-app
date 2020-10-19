@@ -5,7 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-require 'faker'
 
 Traveler.destroy_all
 Trip.destroy_all
@@ -36,7 +35,7 @@ latitude = [
     -104.9903,
     -122.4194
 ]
-Traveler.create(name: Faker::Name.unique.name, current_location: "Portland, Maine")
+Traveler.create(name: Faker::Name.unique.name)
 
 locations.each do |location|
     iterator = 0
@@ -49,5 +48,5 @@ end
 end
 
 (50).times do
-    Room.create(price: Faker::Number.decimal(l_digits: 2), hotel_id: Hotel.all.sample.id, rating: 0)
+    Room.create(price: Faker::Number.decimal(l_digits: 2), hotel_id: Hotel.all.sample.id, rating: 0.0)
 end

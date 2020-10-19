@@ -40,7 +40,6 @@ ActiveRecord::Schema.define(version: 2020_10_17_134313) do
 
   create_table "travelers", force: :cascade do |t|
     t.string "name"
-    t.string "current_location"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -50,6 +49,7 @@ ActiveRecord::Schema.define(version: 2020_10_17_134313) do
     t.float "price"
     t.integer "user_id"
     t.integer "location_id"
+    t.integer "room_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
