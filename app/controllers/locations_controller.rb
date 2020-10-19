@@ -4,5 +4,6 @@ class LocationsController < ApplicationController
         locations = Location.all
         render json: locations.to_json()
     end
+    #new update
 
 end
