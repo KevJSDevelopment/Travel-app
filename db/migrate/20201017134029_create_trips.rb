@@ -3,7 +3,7 @@ class CreateTrips < ActiveRecord::Migration[6.0]
     create_table :trips do |t|
       t.string :status
       t.float :price
-      t.integer :user_id
+      t.integer :traveler_id
       t.integer :location_id
       t.integer :room_id
 
