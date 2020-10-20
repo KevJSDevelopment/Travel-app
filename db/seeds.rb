@@ -29,9 +29,9 @@ images = [
 
 # "/Users/alexstephane/Desktop/course_WORK/flatiron_course/dc-web-082420/phase_3/Project-3-Travel-App/portland.jpg",
 # "/Users/alexstephane/Desktop/course_WORK/flatiron_course/dc-web-082420/phase_3/Project-3-Travel-App/dc.jpg",
-#  "/Users/alexstephane/Desktop/course_WORK/flatiron_course/dc-web-082420/phase_3/Project-3-Travel-App/orlando_florida.jpg",
-#  "/Users/alexstephane/Desktop/course_WORK/flatiron_course/dc-web-082420/phase_3/Project-3-Travel-App/Denver colorado.jpg",
-#  "/Users/alexstephane/Desktop/course_WORK/flatiron_course/dc-web-082420/phase_3/Project-3-Travel-App/San Franscisco.jpg"
+# "/Users/alexstephane/Desktop/course_WORK/flatiron_course/dc-web-082420/phase_3/Project-3-Travel-App/orlando_florida.jpg",
+# "/Users/alexstephane/Desktop/course_WORK/flatiron_course/dc-web-082420/phase_3/Project-3-Travel-App/Denver colorado.jpg",
+# "/Users/alexstephane/Desktop/course_WORK/flatiron_course/dc-web-082420/phase_3/Project-3-Travel-App/San Franscisco.jpg"
 
 longitude = [
     43.6591,
