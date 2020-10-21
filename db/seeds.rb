@@ -9,6 +9,7 @@
 Traveler.destroy_all
 Trip.destroy_all
 Location.destroy_all
+Destination.destroy_all
 Hotel.destroy_all
 Room.destroy_all
 
@@ -58,12 +59,13 @@ Traveler.create(name: Faker::Name.unique.name)
 
 iterator = 0
 locations.each do |location|
-    Location.create(name: location, number_of_visits: 0, rating: 0.0, image: images[iterator], longitude: longitude[iterator], latitude: latitude[iterator])
+    Destination.create(name: location, number_of_visits: 0, rating: 0.0, image: images[iterator], longitude: longitude[iterator], latitude: latitude[iterator])
+    Location.create(name: location, longitude: longitude[iterator], latitude: latitude[iterator])
     iterator += 1
 end
 
 (25).times do 
-    Hotel.create(name: Faker::Company.unique.name, location_id: Location.all.sample.id)
+    Hotel.create(name: Faker::Company.unique.name, destination_id: Destination.all.sample.id)
 end
 
 (50).times do
