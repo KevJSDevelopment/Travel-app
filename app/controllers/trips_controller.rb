@@ -17,4 +17,9 @@ class TripsController < ApplicationController
 
         
     end
+
+    def index 
+        trips = Trip.all
+        render json:trips.to_json()
+    end
 end
