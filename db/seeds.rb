@@ -14,17 +14,17 @@ Room.destroy_all
 
 locations = ["Portland, Maine", "Washington, DC", "Orlando, Florida", "Denver, Colorado", "Sanfrancisco, California"]
 images = [
-    # "/Users/kevinsheehan/Documents/Flatiron/dc-web-082420/Project-3/portland.jpg",
-    # "/Users/kevinsheehan/Documents/Flatiron/dc-web-082420/Project-3/dc.jpg",
-    # "/Users/kevinsheehan/Documents/Flatiron/dc-web-082420/Project-3/orlando_florida.jpg",
-    # "/Users/kevinsheehan/Documents/Flatiron/dc-web-082420/Project-3/Denver colorado.jpg",
-    # "/Users/kevinsheehan/Documents/Flatiron/dc-web-082420/Project-3/San Franscisco.jpg"
+    "/Users/kevinsheehan/Documents/Flatiron/dc-web-082420/Project-3/portland.jpg",
+    "/Users/kevinsheehan/Documents/Flatiron/dc-web-082420/Project-3/dc.jpg",
+    "/Users/kevinsheehan/Documents/Flatiron/dc-web-082420/Project-3/orlando_florida.jpg",
+    "/Users/kevinsheehan/Documents/Flatiron/dc-web-082420/Project-3/Denver colorado.jpg",
+    "/Users/kevinsheehan/Documents/Flatiron/dc-web-082420/Project-3/San Franscisco.jpg"
     
-     "/Users/alexstephane/Desktop/course_WORK/flatiron_course/dc-web-082420/phase_3/Project-3-Travel-App/portland.jpg",
-    "/Users/alexstephane/Desktop/course_WORK/flatiron_course/dc-web-082420/phase_3/Project-3-Travel-App/dc.jpg",
-      "/Users/alexstephane/Desktop/course_WORK/flatiron_course/dc-web-082420/phase_3/Project-3-Travel-App/orlando_florida.jpg",
-     "/Users/alexstephane/Desktop/course_WORK/flatiron_course/dc-web-082420/phase_3/Project-3-Travel-App/Denver colorado.jpg",
-     "/Users/alexstephane/Desktop/course_WORK/flatiron_course/dc-web-082420/phase_3/Project-3-Travel-App/San Franscisco.jpg"
+    #  "/Users/alexstephane/Desktop/course_WORK/flatiron_course/dc-web-082420/phase_3/Project-3-Travel-App/portland.jpg",
+    # "/Users/alexstephane/Desktop/course_WORK/flatiron_course/dc-web-082420/phase_3/Project-3-Travel-App/dc.jpg",
+    #   "/Users/alexstephane/Desktop/course_WORK/flatiron_course/dc-web-082420/phase_3/Project-3-Travel-App/orlando_florida.jpg",
+    #  "/Users/alexstephane/Desktop/course_WORK/flatiron_course/dc-web-082420/phase_3/Project-3-Travel-App/Denver colorado.jpg",
+    #  "/Users/alexstephane/Desktop/course_WORK/flatiron_course/dc-web-082420/phase_3/Project-3-Travel-App/San Franscisco.jpg"
 ]
 
 # "/Users/kevinsheehan/Documents/Flatiron/dc-web-082420/Project-3/portland.jpg",

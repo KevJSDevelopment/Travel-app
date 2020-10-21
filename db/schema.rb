@@ -50,6 +50,8 @@ ActiveRecord::Schema.define(version: 2020_10_17_134313) do
     t.integer "traveler_id"
     t.integer "location_id"
     t.integer "room_id"
+    t.string "date_from"
+    t.string "date_to"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

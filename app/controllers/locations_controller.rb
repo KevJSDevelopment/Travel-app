@@ -5,10 +5,15 @@ class LocationsController < ApplicationController
         render json: locations.to_json()
     end
     
+    def show
+        location = Location.find(params[:id])
+        render json: location.to_json()
+    end
     
     def flight_price
         loc_1 = Location.find_by(name: params[:loc_from])
         loc_2 = Location.find_by(name: params[:loc_to])
+        
         if params[:days_out] <= 7
             dist = distance_between(loc_1.latitude, loc_1.longitude, loc_2.latitude, loc_2.longitude)
             price = dist.to_i * 0.1 * 1.5
