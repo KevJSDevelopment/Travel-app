@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   resources :locations
   resources :rooms
   resources :hotels, only: [:index]
-  resources :trips, only: [:index]
+  resources :trips, only: [:show]
   resources :destinations
   resources :travelers
 
@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   post "/flights", to: "destinations#flight_price"
   post "/trips", to: "trips#create"
 
+  put "/trips", to: "trips#index"
   patch "/trips/:id", to: "trips#update"
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

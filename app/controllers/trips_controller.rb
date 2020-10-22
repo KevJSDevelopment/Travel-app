@@ -11,8 +11,22 @@ class TripsController < ApplicationController
         render json: trip.to_json() 
     end
 
-    def index 
-        trips = Trip.all
+    def update
+        trip = Trip.find(params[:id])
+        trip.update(date_from: params[:date_from], date_to: params[:date_to])
+
+        render json: trip.to_json()
+    end
+
+    def index
+        traveler = Traveler.find(params[:account][:id])
+        trips = Trip.where(traveler_id: traveler.id)
         render json: trips.to_json()
     end
+
+    def show 
+        trip = Trip.find(params[:id])
+        render json: trip.to_json()
+    end
+
 end
