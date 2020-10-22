@@ -12,6 +12,7 @@ Location.destroy_all
 Destination.destroy_all
 Hotel.destroy_all
 Room.destroy_all
+#just testing
 
 locations = ["Portland, Maine", "Washington, DC", "Orlando, Florida", "Denver, Colorado", "Sanfrancisco, California"]
 images = [
