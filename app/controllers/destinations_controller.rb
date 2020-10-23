@@ -9,6 +9,12 @@ class DestinationsController < ApplicationController
         destination = Destination.find(params[:id])
         render json: destination.to_json()
     end
+
+    def image 
+        dest = Destination.find_by(name: params[:dest_name])
+        image = dest.image
+        render json: image.to_json()
+    end
     
     def flight_price
         loc_1 = Destination.find_by(name: params[:loc_from])

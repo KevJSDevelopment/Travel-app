@@ -15,6 +15,8 @@ Rails.application.routes.draw do
   put "/trips", to: "trips#index"
   patch "/trips/:id", to: "trips#update"
 
-  delete "/travelers/:id", to: "travelers#destroy"
+  get "/travelers/:id", to: "travelers#destroy"
+
+  post "/dest_image", to: "destinations#image"
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
